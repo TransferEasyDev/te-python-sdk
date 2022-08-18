@@ -9,12 +9,12 @@ from config.__dev import DEBUG
 
 
 tepay = TEPay(
-    product_code='CP0001',      # 产品编号
-    hp_mchid='80000138',        # 商户号
-    channel_mchid='80000001',   # 子商户号
-    pub_path='/Users/aw/te_admin_python_sdk/config/CERTID_PUBLIC_KEY.pem',     # 共钥
-    pri_path='/Users/aw/te_admin_python_sdk/config/80000138_PRIVATE_KEY.pem',    # 私钥
-    facade_config='your_notify_url',    # 异步通知地址  N
+    product_code='产品编号',      # 产品编号
+    mchid='you mchid',        # 商户号
+    channel_mchid='you channel_mchid',   # 子商户号
+    pub_path='加密数据使用的公钥路径 CERTID_PUBLIC_KEY.pem',     # 共钥
+    pri_path='自己的私钥路径 PRIVATE_KEY.pem',    # 私钥
+    facade_config='your notify url',    # 异步通知地址  N
     debug=DEBUG     # 是否测试
 )
 
