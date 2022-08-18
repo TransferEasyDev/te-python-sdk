@@ -1,0 +1,13 @@
+certifi==2022.6.15
+cffi==1.15.1
+charset-normalizer==2.0.12
+cryptography==3.4.8
+hp-money==1.1.2
+idna==3.3
+pyasn1==0.4.8
+pycparser==2.20
+pycryptodome==3.10.1
+pycryptodomex==3.9.8
+requests==2.26.0
+rsa==4.6
+urllib3==1.26.11
